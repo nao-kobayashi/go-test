@@ -7,10 +7,8 @@ import (
 
 func main() {
 	start := time.Now()
-	a := make([]int, 0, 0)
-	b := make([]int, 0, 0)
-	a = append(a, 1)
-	b = append(b, 1)
+	a := []int{1}
+	b := []int{1}
 	carry := 0
 
 	for count := 2; count < 1000000; count++ {
